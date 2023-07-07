@@ -1,0 +1,20 @@
+{
+  "name": "first-ts-lib",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avi240322/ts-lib.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avi240322/ts-lib/issues"
+  },
+  "homepage": "https://github.com/Avi240322/ts-lib#readme"
+}
