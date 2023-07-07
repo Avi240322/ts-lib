@@ -1,25 +1,28 @@
 {
   "name": "first-ts-lib",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A nice greeter build with typescript",
   "main": "dist/index.js",
-   "types": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "lint": "tslint -p tsconfig.json",
     "test": "jest --config jest.config.json",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
-    "prepublishOnly" : "npm test && npm run lint",
-    "prepare" : "npm run build",
-    "preversion" : "npm run lint",
-    "version" : "npm run format && git add -A src",
-    "postversion" : "git push && git push --tags"
+    "format": "prettier --write \"src/**/*.ts\" ",
+    "prepublishOnly": "npm test && npm run lint",
+    "prepare": "npm run build",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Avi240322/ts-lib.git"
   },
-  "keywords": ["Hello", "Greeter"],
+  "keywords": [
+    "Hello",
+    "Greeter"
+  ],
   "author": "Sumit Kumar",
   "license": "ISC",
   "bugs": {
